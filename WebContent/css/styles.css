@@ -1,0 +1,228 @@
+
+
+body{
+		/*color: #fff;*/
+		background: #3598dc;
+		font-family:Times New Roman, Times, serif;
+	}
+	
+/* style for login form */
+	.form-control {
+		min-height: 41px;
+		background: #f2f2f2;
+		box-shadow: none !important;
+		border: transparent;
+	}
+	.form-control:focus {
+		background: #e2e2e2;
+	}
+	.form-control, .btn {        
+        border-radius: 2px;
+    }
+	.login-form {
+		width: 350px;
+		margin: 30px auto;
+		/*text-align: center;*/
+	}
+	.login-form h2 {
+		color: #333;
+		font-weight: bold;
+        margin-top: 0;
+    }
+    .login-form form {
+		color: #7a7a7a;
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .login-form .btn {        
+        font-size: 16px;
+        font-weight: bold;
+		background: #3598dc;
+		border: none;
+        outline: none !important;
+    }
+	.login-form .btn:hover, .login-form .btn:focus {
+		background: #2389cd;
+	}
+	.login-form a{
+		color: #fff;
+		text-decoration: underline;
+	}
+	.login-form a:hover{
+		text-decoration: none;
+	}
+	.login-form form a{
+		color: #3598dc;
+		text-decoration: none;
+	}	
+	.login-form form a:hover{
+		text-decoration: underline;
+	}
+    .login-form .hint-text {
+		padding-bottom: 15px;
+		text-align: center;
+    }
+    
+  /* style for main page */ 
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c ;
+}
+
+.tab-content{
+ /* background: #fdfdfd;*/
+  background-color: #E8EAED;
+ /*  line-height: 150px;*/
+    border: 1px solid #ddd;
+    border-top:5px solid #e74c3c;
+    border-bottom:5px solid #e74c3c;
+    padding:30px 25px;
+    height:2000px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #e74c3c;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+
+/** style for connexion form ***/
+	.cnx-form {
+		width: 500px;
+		margin: 30px auto;
+		/*text-align: center;*/
+	}
+	.cnx-form h2 {
+		color: #333;
+		font-weight: bold;
+        margin-top: 0;
+    }
+    .cnx-form form {
+		/*color: #7a7a7a;*/
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background: #fff;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .cnx-form .btn {        
+        font-size: 16px;
+        font-weight: bold;
+		background: #3598dc;
+		border: none;
+        outline: none !important;
+    }
+	.cnx-form .btn:hover, .cnx-form .btn:focus {
+		background: #2389cd;
+	}
+	.cnx-form a{
+		color: #fff;
+		text-decoration: underline;
+	}
+	.cnx-form a:hover{
+		text-decoration: none;
+	}
+	.cnx-form form a{
+		color: #3598dc;
+		text-decoration: none;
+	}	
+	.cnx-form form a:hover{
+		text-decoration: underline;
+	}
+    .cnx-form .hint-text {
+		padding-bottom: 15px;
+		text-align: center;
+    }
+  
+  /* style for containerrow */
+  .containerrow{
+          border: 1px solid #7451EB;
+        padding: 3px;
+  }
+  
+  /* style for textarea SQLf terminal */
+  textarea {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-attachment: local;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  padding-top: 10px;
+  border-color: #ccc;
+
+  font-size: 18px;
+  line-height: 16px;
+}
+
+.textarea-wrapper {
+  display: inline-block;
+  background-image: linear-gradient(#F1F1F1 50%, #F9F9F9 50%);
+  background-size: 100% 32px;
+  background-position: left 10px;
+}
+ 
+ /***********************/
+ /*** For groupbox in semantic section */
+ 
+ fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.well-legend {
+  display: block;
+  font-size: 14px;
+  width: auto;
+  padding: 2px 7px 2px 5px;
+  margin-bottom: 20px;
+  line-height: inherit;
+  color: #333;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+/***************/
+ 
+  

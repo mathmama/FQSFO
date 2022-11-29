@@ -19,9 +19,10 @@ String oracleurl;
 						<p><%=session.getAttribute("oracleconnection").toString()%></p>
 						<sql:setDataSource var = "snapshot" driver = "oracle.jdbc.driver.OracleDriver"
                          url = "${oracleurl}" user = "user1"  password ="user1"/>
-                         
+                         <p>The database is prepared</p>
 						<form method="post">
 						<button type="submit" class="btn btn-primary btn-md" id="disconnectedbd" name="disconnecteddb">Disconnected</button>
+						<button type="submit" class="btn btn-primary btn-md" id="preparedbd" name="preparedbd" disabled>Prepare the database</button>
 						</form>
 					</div>
 				</c:when>

@@ -78,11 +78,15 @@ public class SMComputationOWL {
 	public double getsimilarity_degree(String concept1, String concept2) {
 		double sim = 0;
 		// We compute the similarity between two concepts
-
+		System.out.println("namspace " + namspace);
 		URI concept1URI = factory.getURI(namspace + concept1);
 		URI concept2URI = factory.getURI(namspace + concept2);
+		System.out.println(concept1URI);
+		System.out.println(concept2URI);
 		System.out.println(">>>>>" + listVertices.toString());
 		if (listVertices.contains(concept1URI) && listVertices.contains(concept2URI)) {
+			System.out.println("YES");
+			System.out.println(namspace);
 			try {
 				sim = engine.compare(smConf, concept1URI, concept2URI);
 			} catch (SLIB_Ex_Critic e) {
@@ -90,10 +94,11 @@ public class SMComputationOWL {
 				e.printStackTrace();
 				// return 0;
 			}
-
 			return sim;
-		} else
+		} else {
+			System.out.println("URI not find");
 			return 0;
+		}
 
 	}
 

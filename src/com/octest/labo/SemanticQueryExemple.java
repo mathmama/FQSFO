@@ -15,7 +15,9 @@ public class SemanticQueryExemple {
 	public static void main(String[] args) {
 
 		// semantic preparation :
-		String _ontoFile = "C:\\Users\\MATHMAMA\\Downloads\\DatasetOntology\\movieontology.owl";
+		// String _ontoFile =
+		// "C:\\Users\\MATHMAMA\\Downloads\\DatasetOntology\\movieontology.owl";
+		String _ontoFile = "C:\\Users\\MATHMAMA\\Desktop\\My Thesis\\Final Thesis V2\\Ontology dataset\\MovieOntology.owl";
 		SMComputationOWL sm = new SMComputationOWL(_ontoFile, "SIM_PAIRWISE");
 
 		// System.out.println(sm.getsimilarity_degree("Reboot_filmsý",
@@ -24,7 +26,7 @@ public class SemanticQueryExemple {
 		// TODO Auto-generated method stub
 		int threshold = (int) 0.5;
 		String SemanticAttribut = "genre";
-		String moviegenre = "Info-TV";
+		String moviegenre = "Action";
 		String InList = "";
 
 		try {

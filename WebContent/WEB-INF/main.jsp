@@ -9,7 +9,7 @@
                       <a class="nav-item nav-link <c:if test="${empty sessionScope.conn}"> disabled</c:if> " id="nav-fuzzy-database-modeling-tab" data-toggle="tab" href="#nav-fuzzy-database-modeling" role="tab" aria-controls="nav-fuzzy-database-modeling" aria-selected="false">Fuzzy Query Preparation</a>
                       <a class="nav-item nav-link  <c:if test="${empty sessionScope.conn}"> disabled</c:if>" id="nav-ontologie-tab" data-toggle="tab" href="#nav-ontologie" role="tab" aria-controls="nav-ontologie" aria-selected="false">Semantic Query Preparation</a>
                       <a class="nav-item nav-link <c:if test="${empty sessionScope.conn}"> disabled</c:if> " id="nav-terminal-tab" data-toggle="tab" href="#nav-terminal" role="tab" aria-controls="nav-terminal" aria-selected="false">SQLf Terminal</a>
-                      <a class="nav-item nav-link <c:if test="${empty sessionScope.conn}"> disabled</c:if>" id="nav-visual-consultation-tab" data-toggle="tab" href="#nav-visual-consultation" role="tab" aria-controls="nav-visual-consultation" aria-selected="false">Visual consultation</a>
+                      <a class="nav-item nav-link <c:if test="${empty sessionScope.conn}"> disabled</c:if>" id="nav-visual-consultation-tab" data-toggle="tab" href="#nav-visual-consultation" role="tab" aria-controls="nav-visual-consultation" aria-selected="false">Flexible Query Builder</a>
                       <a class="nav-item nav-link <c:if test="${empty sessionScope.conn}"> disabled</c:if>" id="nav-help-tab" data-toggle="tab" href="#nav-help" role="tab" aria-controls="nav-help" aria-selected="false">Help</a>
                     </div>
                   </nav>

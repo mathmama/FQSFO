@@ -41,8 +41,11 @@
                <td> <c:out value = "${row.maximum_value}"/></td>
                <td> <c:out value = "${row.username}"/></td>
                <td> <c:out value = "${row.time_stamp}"/></td>
-               <td> <li class="list-inline-item">  <button class="btn btn-success btn-sm rounded-0"  type="button" data-toggle="tooltip" data-placement="top" title="EditLV"  id="updaatelv" name="${row.linguistic_variable_id}"  ><i class="fa fa-edit"></i></button> </li>
-                <li class="list-inline-item">  <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="DeleteLV" name="${row.linguistic_variable_id}" onclick="lvdelete(this.name);"><i class="fa fa-trash"></i></button> </li></td>
+               <td> 
+               		<li class="list-inline-item">  <button class="btn btn-success btn-sm rounded-0"  type="button" data-toggle="tooltip" data-placement="top" title="EditLV"  id="updaatelv" name="${row.linguistic_variable_id}"  ><i class="fa fa-edit"></i></button> </li>
+               		<li class="list-inline-item">  <button class="btn btn-success btn-sm rounded-0"  type="button" data-toggle="tooltip" data-placement="top" title="DrawLV"  id="drawlv" name="${row.linguistic_variable_id}"  ><i class="fa fa-area-chart"></i></button> </li>
+                	<li class="list-inline-item">  <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="DeleteLV" name="${row.linguistic_variable_id}" onclick="lvdelete(this.name);"><i class="fa fa-trash"></i></button> </li>
+                </td>
             </tr>
          </c:forEach>
       </table>

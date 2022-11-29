@@ -6,11 +6,13 @@
   <br>
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
+  <!--  
     <li class="nav-item">
       <a class="nav-link active" data-toggle="tab" href="#internal_ontology">Internal Ontology</a>
     </li>
+    -->
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#external_ontology">External Ontology</a>
+      <a class="nav-link" data-toggle="tab" href="#external_ontology"> Ontology Manager</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#semantic_predicates">Semantic Predicates</a>
@@ -37,7 +39,7 @@
       
     </div>
     <div id="external_ontology" class="container tab-pane fade"><br>
-      <h3>External Ontology</h3>
+      <h3> Ontology Manager</h3>
       <%@ include file="OWLOntologyForm.jsp" %>
       
 <form>

@@ -17,6 +17,7 @@ ResultSet resultSet = null;
 		</div>
 	</div>
 	</fieldset>
+	<!--  <h6>Query Example : select * from movie where (genre='Action')>=0.2 and (release_period='new')>0.6 </h6> -->
 	<button class="btn btn-primary btn-md" id="sqlfrun" name="sqlfrun">Run</button>
 <br>
 <br>

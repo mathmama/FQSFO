@@ -1,12 +1,28 @@
 <form>
   <fieldset class="well">
-    <legend class="well-legend">OWL</legend>
+    <legend class="well-legend">Ontology</legend>
+    <div class="form-row">
     <div class="form-group col-md-6">
-					<label for="owl_name">OWL Name:</label> <input
+					<label for="owl_name">Ontology Name:</label> <input
 						type="text" class="form-control" id="owl_name"
-						placeholder="Enter OWL Name" required="required">
+						placeholder="Enter Ontology Name" required="required">
 				</div>
-				<!-- Default input -->
+				
+				<div class="form-group col-md-6">
+					<label for="OntologyType">Ontology type</label> 
+					<select class="form-select" id="OntologyType">
+						<option value="OWL">OWL</option>
+						<option value="RDF(S)">RDF(s)</option>
+						<option value="WordNet">WordNet</option>
+						<option value="Yago">Yago</option>
+						<option value="MesH">MeSH</option>
+						<option value="NOMED-CT">NOMED-CT</option>
+						<option value="DO">DO</option>
+						<option value="OBO">OBO</option>
+						
+					</select>
+				</div>
+				</div>
 	<div class="row">
 	<div class="form-group col-md-6">
 		<label for="URL">File Path(URL): </label> <input type="text"

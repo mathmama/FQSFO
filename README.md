@@ -13,3 +13,18 @@ The system's main page contains multiple tabs as shown in the Figure 1. The defa
 | **Figure 1: System’s main page after a successful connection to a database** |
 
 ##  2. Query Examples and Results
+Recall that the developed system can handle three main types of query conditions, namely simple, fuzzy, and semantic. Also, it can handle the query, whether simple or complex. All valid queries are expected to return a result that may be either a set of records or a single value. A number of examples are presented in this section to demonstrate the output produced by different types of queries.
+
+
+Figure 2 shows an example of a fuzzy query that was performed to find the new movies with a threshold of 0.5. As previously discussed, the system analyzes the SQLf query and shows a generated SQL  query. In this kind of query, the system just changes the syntax of the fuzzy condition to be directly handled by DBMS.
+| ![An example of a fuzzy query.](https://i.ibb.co/kgYjzN7/fuzzy-query-example.png) | 
+|:--:| 
+| **Figure 2: An example of a fuzzy query** |
+Figure 3 and Figure 4, respectively, show examples of semantic and complex query types that involve all types of supported conditions. The semantic condition is also analyzed and processed to become a Boolean one.
+| ![An example of a semantic query.](https://i.ibb.co/CnQSRRL/semantic-query-example.png) |
+|:--:| 
+| **Figure 3: An example of a semantic query** |
+| ![An example of a complex query.](https://i.ibb.co/bsBG9wW/complex-query-example.png) | 
+|:--:| 
+| **Figure 2: An example of a fuzzy query** |
+

@@ -29,7 +29,7 @@ Figure 3 and Figure 4, respectively, show examples of semantic and complex query
 | **Figure 3: An example of a semantic query** |
 | ![An example of a complex query.](https://i.ibb.co/bsBG9wW/complex-query-example.png) | 
 |:--:| 
-| **Figure 4: n example of a complex query.** |
+| **Figure 4: An example of a complex query.** |
 
 ##  3. System Snapshots
 
@@ -38,6 +38,32 @@ In this section, we will show the forms of the implemented feature that aim to h
 * Linguistic Values: responsible for managing linguistic values like creating and associating it to a specific linguistic variable, modifying, showing, or deleting
 * Fuzzy Predicates: responsible for managing fuzzy predicates such as creating one by selecting a column from a table and linking it to a specific linguistic variable to build a fuzzy view of this table.
 
-All these services are already presented in detail in section "The fuzzy querying interface" of our published paper(www.shorturl.at/klpv6) , which describes the developed application based on our first approach. Figure \ref{fig:linguistic_values_service} and Figure \ref{fig:fuzzy_predicates_service}, respectively, show the forms used to manage linguistic values and fuzzy predicates. Whilst, the linguistic variable service is the default service of this tab as shown in Figure \ref{fig:fuzzy_query_preparation_tab}.
+| ![Fuzzy query preparation tab services.](https://i.ibb.co/jvnT5jq/fuzzy-query-preparation-tab.png) | 
+|:--:| 
+| **Figure 5: Fuzzy query preparation tab services.** |
 
+All these services are already presented in detail in section "The fuzzy querying interface" of our published paper(www.shorturl.at/klpv6) , which describes the developed application based on our first approach. Figure 6 and Figure 7, respectively, show the forms used to manage linguistic values and fuzzy predicates. Whilst, the linguistic variable service is the default service of this tab as shown in Figure 5.
 
+| ![Linguistic values service.](https://i.ibb.co/WntKpy6/linguistic-values-service.png) | 
+|:--:| 
+| **Figure 6: Linguistic values service.** |
+
+| ![Fuzzy predicates service.](https://i.ibb.co/ZG7DX15/fuzzy-predicates-service.png) | 
+|:--:| 
+| **Figure 7: Fuzzy predicates service.** |
+
+The "semantic query preparation" tab is done to help the user to define their semantic preferences. It contains two main services (see Figure 8 ) :
+* Ontology Manager: in which the user can choose the ontology that will represent the domain of an attribute that will be semantically queried.
+* Semantic Predicates: responsible for managing semantic predicates.
+
+| ![Semantic query preparation tab services.](https://i.ibb.co/bmr0YVD/semantic-query-preparation-tab.png) | 
+|:--:| 
+| **Figure 8: Semantic query preparation tab services.** |
+
+Figure 8 shows the form used to manage ontologies. The user starts by choosing a name for the ontology. Then he is invited to choose their type and enter his reference or generate it via file explorer. All this information will be conserved in the database semantic catalog. A list of all prepared ontologies is displayed at the bottom of the form.
+
+The form shown in Figure 9 is used to allow the user to add, update, or delete a semantic predicate. At the top of the form, the user has the required options to create a new semantic predicate. The user starts by choosing a column of a selected table and linking it with an existing prepared ontology by choosing their type and reference. Also, the user is invited to select from a list a semantic measure that will be used to calculate the semantic similarity degree between a search term and all values of the selected column. Besides each semantic predicate of this list, there are two buttons that may be used to update or delete a semantic predicate.
+
+| ![Semantic predicates service.](https://i.ibb.co/z4L2x2g/semantic-predicates-service.png) | 
+|:--:| 
+| **Figure 9: Semantic predicates service.** |

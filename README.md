@@ -20,11 +20,22 @@ Figure 2 shows an example of a fuzzy query that was performed to find the new mo
 | ![An example of a fuzzy query.](https://i.ibb.co/kgYjzN7/fuzzy-query-example.png) | 
 |:--:| 
 | **Figure 2: An example of a fuzzy query** |
+
 Figure 3 and Figure 4, respectively, show examples of semantic and complex query types that involve all types of supported conditions. The semantic condition is also analyzed and processed to become a Boolean one.
+Figure 3 and Figure 4, respectively, show examples of semantic and complex query types that involve all types of supported conditions. The semantic condition is also analyzed and processed to become a Boolean one.
+
 | ![An example of a semantic query.](https://i.ibb.co/CnQSRRL/semantic-query-example.png) |
 |:--:| 
 | **Figure 3: An example of a semantic query** |
 | ![An example of a complex query.](https://i.ibb.co/bsBG9wW/complex-query-example.png) | 
 |:--:| 
-| **Figure 2: An example of a fuzzy query** |
+| **Figure 4: n example of a complex query.** |
+
+##  3. System Snapshots
+
+In this section, we will show the forms of the implemented feature that aim to help users to set up their preferences. Figure 5 shows the main services provided in the "fuzzy query preparation" tab, which as :
+* Linguistic Variables: responsible for managing linguistic variables like creating, modifying, showing, or deleting 
+* Linguistic Values: responsible for managing linguistic values like creating and associating it to a specific linguistic variable, modifying, showing, or deleting
+* Fuzzy Predicates: responsible for managing fuzzy predicates such as creating one by selecting a column from a table and linking it to a specific linguistic variable to build a fuzzy view of this table.
+
 

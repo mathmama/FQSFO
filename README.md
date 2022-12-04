@@ -38,6 +38,6 @@ In this section, we will show the forms of the implemented feature that aim to h
 * Linguistic Values: responsible for managing linguistic values like creating and associating it to a specific linguistic variable, modifying, showing, or deleting
 * Fuzzy Predicates: responsible for managing fuzzy predicates such as creating one by selecting a column from a table and linking it to a specific linguistic variable to build a fuzzy view of this table.
 
-All these services are already presented in detail in section "The fuzzy querying interface" of our published paper(shorturl.at/klpv6) , which describes the developed application based on our first approach. Figure \ref{fig:linguistic_values_service} and Figure \ref{fig:fuzzy_predicates_service}, respectively, show the forms used to manage linguistic values and fuzzy predicates. Whilst, the linguistic variable service is the default service of this tab as shown in Figure \ref{fig:fuzzy_query_preparation_tab}.
+All these services are already presented in detail in section "The fuzzy querying interface" of our published paper(www.shorturl.at/klpv6) , which describes the developed application based on our first approach. Figure \ref{fig:linguistic_values_service} and Figure \ref{fig:fuzzy_predicates_service}, respectively, show the forms used to manage linguistic values and fuzzy predicates. Whilst, the linguistic variable service is the default service of this tab as shown in Figure \ref{fig:fuzzy_query_preparation_tab}.
 
 
